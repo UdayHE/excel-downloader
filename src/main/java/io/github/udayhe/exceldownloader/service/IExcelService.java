@@ -8,7 +8,7 @@ import java.io.IOException;
  */
 public interface IExcelService {
 
-    byte[] generateXlsxReport() throws IOException;
+    String generateXlsxReport() throws IOException;
 
-    byte[] generateXlsReport() throws IOException;
+    String generateXlsReport() throws IOException;
 }

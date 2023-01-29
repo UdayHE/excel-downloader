@@ -23,9 +23,10 @@ dependencies {
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    implementation("org.apache.poi:poi:4.1.2")
-    implementation("org.apache.poi:poi-ooxml:4.1.2")
-    implementation("com.google.guava:guava:31.0.1-jre")
+    implementation "org.apache.poi:poi:4.1.2"
+    implementation "org.apache.poi:poi-ooxml:4.1.2"
+    implementation "com.google.guava:guava:31.0.1-jre"
+    implementation 'commons-io:commons-io:2.6'
 }
 
 tasks.named('test') {
